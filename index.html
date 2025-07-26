@@ -1,1 +1,447 @@
-<H1> Welcome to my Web Page</H1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile | Welcome to My Code World</title>
+    <link rel="stylesheet" href="github-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="code-rain"></div>
+        <div class="floating-elements">
+            <div class="floating-icon"><i class="fab fa-github"></i></div>
+            <div class="floating-icon"><i class="fab fa-js"></i></div>
+            <div class="floating-icon"><i class="fab fa-python"></i></div>
+            <div class="floating-icon"><i class="fab fa-react"></i></div>
+            <div class="floating-icon"><i class="fab fa-node"></i></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fab fa-github"></i>
+                <span>GitHub Profile</span>
+            </div>
+            <div class="nav-links">
+                <a href="#profile" class="nav-link">Profile</a>
+                <a href="#stats" class="nav-link">Stats</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="profile" class="hero">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="avatar-container">
+                            <div class="avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="status-badge">
+                                <span class="status-dot"></span>
+                                Available for hire
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h1 class="name">Your Name</h1>
+                            <p class="username">@yourusername</p>
+                            <p class="bio">Passionate Full-Stack Developer | Open Source Contributor | Tech Enthusiast</p>
+                            <div class="profile-stats">
+                                <div class="stat">
+                                    <span class="stat-number">150+</span>
+                                    <span class="stat-label">Repositories</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">1.2k</span>
+                                    <span class="stat-label">Followers</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">500+</span>
+                                    <span class="stat-label">Stars</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <button class="btn btn-primary">
+                            <i class="fas fa-eye"></i>
+                            View Profile
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fas fa-heart"></i>
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Stats Section -->
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <h2 class="section-title">GitHub Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>Total Commits</h3>
+                            <div class="stat-number">2,847</div>
+                            <div class="stat-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>Stars Earned</h3>
+                            <div class="stat-number">1,234</div>
+                            <div class="stat-progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>Pull Requests</h3>
+                            <div class="stat-number">89</div>
+                            <div class="stat-progress">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>Contributions</h3>
+                            <div class="stat-number">156</div>
+                            <div class="stat-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contribution Graph -->
+                <div class="contribution-graph">
+                    <h3>Contribution Activity</h3>
+                    <div class="graph-container">
+                        <div class="graph-grid">
+                            <!-- Generate 365 days of contribution data -->
+                            <script>
+                                // This will be populated by JavaScript
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3>Awesome Project</h3>
+                                <p>A revolutionary web application built with modern technologies</p>
+                            </div>
+                            <div class="project-stats">
+                                <span class="stat"><i class="fas fa-star"></i> 245</span>
+                                <span class="stat"><i class="fas fa-code-branch"></i> 89</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-sm btn-primary">View Project</a>
+                            <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3>Mobile App</h3>
+                                <p>Cross-platform mobile application for productivity</p>
+                            </div>
+                            <div class="project-stats">
+                                <span class="stat"><i class="fas fa-star"></i> 156</span>
+                                <span class="stat"><i class="fas fa-code-branch"></i> 42</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-sm btn-primary">View Project</a>
+                            <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3>Data Analytics</h3>
+                                <p>Real-time data visualization and analytics dashboard</p>
+                            </div>
+                            <div class="project-stats">
+                                <span class="stat"><i class="fas fa-star"></i> 98</span>
+                                <span class="stat"><i class="fas fa-code-branch"></i> 23</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-sm btn-primary">View Project</a>
+                            <a href="#" class="btn btn-sm btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 82%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Twitter</h4>
+                                <a href="https://twitter.com/yourusername" target="_blank">@yourusername</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send me a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub Profile</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#profile">Profile</a>
+                    <a href="#stats">Stats</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GitHub Profile. Made with <i class="fas fa-heart"></i> for the developer community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="github-script.js"></script>
+</body>
+</html> 
